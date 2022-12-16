@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <h1 class="form-title">Registration</h1>
+  <form #data="ngForm" (ngSubmit)="submit(data.value)">
+    <div class="main-user-info">
+      <div class="user-input-box">
+        <label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="FirstName" placeholder="Enter First Name" [(ngModel)]="FirstName"
+          #fName />
+      </div>
+      <div class="user-input-box">
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="LastName" name="LastName" placeholder="Enter Last Name" ngModel />
+      </div>
+      <div class="user-input-box">
+        <label for="fullName">Email</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter Email" ngModel />
+      </div>
+      <div class="user-input-box">
+        <label for="Phone">Phone Number </label>
+        <input type="number" id="Phone" name="Phone" placeholder="Enter Phone Number" ngModel />
+      </div>
+      <div class="user-input-box">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password" placeholder="Enter Password" ngModel />
+      </div>
+
+    </div>
+
+    <div class="form-submit-btn">
+      <button class="form-button">Register</button>
+    </div>
+  </form>
+</div>

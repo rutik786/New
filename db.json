@@ -1,0 +1,20 @@
+{
+  "Student": [
+    {
+      "FirstName": "Krutik",
+      "LastName": "Sahu",
+      "Email": "rutiksahu2000@gmail.com",
+      "Phone": 9604123687,
+      "Password": "123456",
+      "id": 1
+    },
+    {
+      "FirstName": "Deepali",
+      "LastName": "xyz",
+      "Email": "rutiksahu2000@gmail.com",
+      "Phone": 9604123687,
+      "Password": "asdfgh",
+      "id": 2
+    }
+  ]
+}
